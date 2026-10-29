@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
